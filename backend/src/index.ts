@@ -7,6 +7,7 @@ import authRoutes from './routes/auth';
 dotenv.config();
 
 const app = express();
+// Default port is 5000 if not specified in .env
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
